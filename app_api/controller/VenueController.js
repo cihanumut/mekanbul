@@ -90,10 +90,10 @@ const getVenue = async function (req, res) {
         });
 
     }
-    catch (error) {
+    catch (err) {
         createResponse(res, "404", { status: "böyle bir mekan yok" });
     }
-};
+}
 
 const updateVenue = async function (req, res) {
     try {
