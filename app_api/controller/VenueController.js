@@ -97,7 +97,7 @@ const getVenue = async function (req, res) {
 
 const updateVenue =async function (req, res) {
 try{
-    const updateVenue=await Venue.findByIdAndUpdate(
+    const updatedVenue=await Venue.findByIdAndUpdate(
         req.params.venueid,
         {
             ...req.body,
