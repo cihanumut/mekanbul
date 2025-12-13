@@ -5,4 +5,4 @@
 
 ---
 <p align="center">
-[Projenin canlı demosu için tıklayınız.Vercel](https://mekanbul-eight.vercel.app/) </p>
+👉 [Canlı Demo](https://mekanbul-eight.vercel.app/)</p>
