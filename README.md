@@ -4,5 +4,5 @@
 
 
 ---
-<p align="center">
-👉 [Canlı Demo](https://mekanbul-eight.vercel.app/)</p>
+
+👉 [Canlı Demo](https://mekanbul-eight.vercel.app/)
