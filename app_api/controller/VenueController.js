@@ -79,7 +79,7 @@ const addVenue = async function (req, res) {
         createResponse(res,"400",error);
     }
 //createResponse(res, 200, { status: "başarılı" });
-}
+};
 
 const getVenue = async function (req, res) {
     try {
