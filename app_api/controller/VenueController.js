@@ -62,7 +62,8 @@ const addVenue = async function (req, res) {
         day: req.body.days1,
         open: req.body.open1,
         close: req.body.close1,
-        isClosed: req.body.isClosed1,},
+        isClosed: req.body.isClosed1,
+    },
         {
         day: req.body.days2,
         open: req.body.open2,
