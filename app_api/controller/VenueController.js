@@ -92,7 +92,7 @@ const getVenue = async function (req, res) {
         createResponse(res, 404, { status: "böyle bir mekan yok" });
     }
     //createResponse(res,200,{status:"getvenue başarılı"});
-}
+};
 
 const updateVenue =async function (req, res) {
 try{
