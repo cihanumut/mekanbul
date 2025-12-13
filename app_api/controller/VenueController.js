@@ -88,7 +88,7 @@ const getVenue = async function (req, res) {
         });
 
     }
-    catch (err) {
+    catch (error) {
         createResponse(res, 404, { status: "böyle bir mekan yok" });
     }
     //createResponse(res,200,{status:"getvenue başarılı"});
