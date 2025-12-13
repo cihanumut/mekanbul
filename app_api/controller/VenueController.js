@@ -83,13 +83,14 @@ const addVenue = async function (req, res) {
 
 const getVenue = async function (req, res) {
     try {
-        await Venue.findById(req.params.venueid).exec().then(function (venue) {
+        await Venue.findById(req.params.venueid)
+        .exec()
+        .then(function (venue) {
             createResponse(res, 200, venue);
         });
 
     }
-    catch (err) {
-        console.log(err)
+    catch (error) {
         createResponse(res, 404, { status: "böyle bir mekan yok" });
     }
     //createResponse(res,200,{status:"getvenue başarılı"});
